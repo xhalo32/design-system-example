@@ -16,7 +16,7 @@ const Checkbox = (props) => {
   }
 
   return (
-    <div className="uk-margin">
+    <div className="fail">
       <button type={type} className={className.join(' ')} onClick={onClick}>{value}</button>
     </div>
   );
